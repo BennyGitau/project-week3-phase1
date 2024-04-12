@@ -1,0 +1,61 @@
+{
+  "rides": [
+    {
+      "id": "4",
+      "title": "Bugatti Veyron",
+      "image": "Assets/Buggati Vyeron.jpg",
+      "description": " Veyron features an 8.0-litre, quad-turbocharged, W16 cylinder engine, equivalent to two narrow-angle V8 engines bolted together",
+      "likes": 4,
+      "ratings": 1.5,
+      "comments": [
+        "awesome",
+        "Great"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Lamborghini Veneno",
+      "image": "Assets/Lamborghini Veneno.jpg",
+      "description": "The front of the car is designed for maximum airflow and improved downforce",
+      "likes": 5,
+      "ratings": 2.5,
+      "comments": [
+        "awesome",
+        "Great"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Ferrari 296 GTB",
+      "image": "Assets/2022-Ferrari-296-GTB.avif",
+      "description": "The 296 is a two-seater, offered as a GTB coupé, and a GTS folding hard-top convertible.",
+      "likes": 2,
+      "ratings": 1.5,
+      "comments": [
+        "awesome",
+        "Great"
+      ]
+    },
+    {
+      "id": "6e91",
+      "title": "Range Rover",
+      "description": " The upper half of the Range Rover's rear hatch continues the roof's blackout theme with black panels matching",
+      "image": "https://www.dynamiccustoms.co.uk/wp-content/uploads/2020/08/IMG_1956.jpg",
+      "likes": 0,
+      "ratings": 0,
+      "comments": [
+        "awesome",
+        "Great"
+      ]
+    },
+    {
+      "id": "6a49",
+      "title": "Porsche 911 GT3 RS",
+      "description": "The GT3 RS comes with an outrageous rear wing that incorporates a drag-reduction system similar to those on Formula 1 race cars",
+      "image": "Assets/Porsche 911 GT3 RS.jpg",
+      "likes": 0,
+      "ratings": 0,
+      "comments": []
+    }
+  ]
+}

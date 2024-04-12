@@ -1,0 +1,226 @@
+:root {
+  --primary-color: #333;
+  --secondary-color: #fff;
+}
+
+[color-mode="light"] {
+  --primary-color: #333;
+  --secondary-color: #fff;
+}
+
+[color-mode="dark"] {
+  --primary-color: #fff;
+  --secondary-color: #333;
+}
+
+body{
+  place-items: center;
+  height: 100vh;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  margin: auto;
+  font-family: monospace;
+  width: 70%;
+}
+h1 {
+  font-weight: 900;
+  font-style: italic;
+  font-size: 3.5rem;
+  color: azure;
+  
+}
+#ride-header {
+    display: flex;
+    background-color: #0d283c;
+    height: 80px;
+    background-size: 100% 100%;
+    margin: 0;
+    opacity: 8;
+    box-shadow: 2px 2px #181717;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 0px;
+}
+
+#ride-title{
+    font-family:fantasy;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    height: 2rem;
+    margin: 0;  
+}
+.container {
+  padding: 1rem;
+  width: stretch;
+  height: auto;
+  display: none;
+  background: #54545a;
+  opacity: .8;
+}
+
+#add-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px #181717;
+    background-color: rgba(77, 72, 72, 0.5);
+
+}
+#add-container > form {
+  text-align: center;
+  padding-top: 14px;
+
+}
+.more-info{
+  display: flex;
+  justify-content: space-between;
+  height: 1.5rem;
+  text-align: center;
+
+}
+.car-image{
+  margin: 0;
+  padding: 3px;
+  width: 100%;
+  display: flex;
+  object-fit: cover;
+  text-align: left;
+}
+.description-section{
+width: 394px;
+padding: 3px;
+text-align: left;
+
+}
+#description{
+  background-color: #4A5D6B;
+  color: white;
+  overflow: hidden;
+  width: 200px;
+  text-align: left;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}  
+.ride-image{
+  position: relative;
+  transform: rotateY(180deg);
+  width: 100%;
+  max-height: fit-content;
+  justify-self: center;
+  height: 14rem;
+
+}
+
+
+#ride-collection {
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+
+}
+
+.card {
+  text-align: center;
+  border: 0.5px solid grey;
+  width:350px;
+  height: 30rem;
+  position: relative;
+  margin: 30px;
+ 
+}
+button {
+  position: relative;
+  border: none;
+  border-radius: 10px;
+  height: 1.5rem;
+  width: max-content;
+  font-size: 15px;
+  justify-self: center;
+  margin: 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  border: #e04b52 solid 1px;
+  color: #e04b52;
+  cursor: pointer;
+}
+
+
+.comments {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 10px;
+  font-size: 0.85rem;
+  overflow: scroll;
+  height: 80px;
+}
+#comment-list li {
+  margin: 2px 0;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+.comment-form {
+  padding-top: 5px;
+  border-top: 1px solid black;
+  height: 2rem;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  width: 100%;
+}
+
+
+.submit {
+  position: relative;
+  background-color: #e04b52;
+  border-radius: 5px;
+  height: 1.5rem;
+  width: max-content;
+  color: whitesmoke;
+  font-size: 14px;
+  justify-self: center;
+  font-family: monospace;
+  margin: 3px;
+}
+
+.submit:hover {
+  background-color: whitesmoke;
+  border: #e04b52 solid 1px;
+  color: #e04b52;
+}
+
+
+.input-text {
+  border-radius: 5px;
+  border: none;
+  height: 1rem;
+  width: 80%;
+  font-size: 12px;
+  font-family: monospace;
+  margin: 3px;
+}
+
+.like-btn {
+  border: none;
+  background: none;
+  color: rgb(255, 127, 80);
+}
+
+.content{
+  width: 50px;
+  padding-left: 0;
+  margin: 4px;
+  font-size: 1rem;
+  font-weight: 400;
+
+  }
+.more-info div{
+  display: flex;
+ 
+}
